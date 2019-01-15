@@ -37,10 +37,9 @@ Hope to find time to try this out soon.
 
 I have only tried the examples using js and flash. Included in the Gameduell aggx lib are c++ specific implementations of the types library etc., so I guess that it will be quite easy to get something out using c++ also.
 
-## Aggx, OpenGL and Duell tools - further reading
+## OpenGL and Duell tools - further reading
 
-The other day, I stumbled over the following bachelor work of Alexis Iakovenko-Marinitch, explaining how to use Haxe and Gameduell's build tools to render 2d and 3d using aggx and OpenGL. 
-A goldmine, I guess, both for get going with aggx and OpenGL.
+The other day, I stumbled over the following bachelor work of Alexis Iakovenko-Marinitch, explaining how to use Haxe and Gameduell's build tools together with OpenGL. Great, I guess, if you want to explore the Duell infrastructure and knot aggx and OpenGL together.
 
 [A Haxe Implementation of Essential
 OpenGL Examples Using Duell Tool](http://www.mi.fu-berlin.de/inf/groups/ag-ki/Theses/Completed-theses/Bachelor-theses/2016/Iakovenko/Bachelor-Iakovenko.pdf)
