@@ -1,0 +1,11 @@
+-cp src
+-cp src_js
+-D analyzer-optimize
+-lib hxnodejs
+-resource assets/fonts/Pacifico.ttf@Pacifico.ttf
+-main ExampleFontEngine
+
+-js out-node/fontengine.js
+-cmd node out-node/fontengine.js
+
+

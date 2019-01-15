@@ -1,0 +1,10 @@
+-cp src
+-cp src_js
+-D analyzer-optimize
+-resource assets/fonts/Pacifico.ttf@Pacifico.ttf
+-main ExampleFontEngine
+
+-js out-browser/fontengine.js
+
+
+

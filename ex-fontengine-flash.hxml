@@ -1,0 +1,8 @@
+-cp src
+-cp src_flash
+-D analyzer-optimize
+-resource assets/fonts/Pacifico.ttf@Pacifico.ttf
+-main ExampleFontEngine
+
+-swf fontengine.swf
+-cmd fontengine.swf
