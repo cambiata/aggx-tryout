@@ -1,5 +1,5 @@
 -cp src
--cp src_flash
+# -cp src_flash
 -D analyzer-optimize
 -resource assets/fonts/Pacifico.ttf@Pacifico.ttf
 -main ExampleFontEngine

@@ -1,5 +1,5 @@
 -cp src
--cp src_js
+# -cp src_js
 -D analyzer-optimize
 -lib hxnodejs
 -resource assets/fonts/Pacifico.ttf@Pacifico.ttf
