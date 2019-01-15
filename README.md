@@ -7,6 +7,13 @@ According to Gameduell, the Aggx library isn't maintained anymore (https://githu
 As originally a part of Gameduell's multiplatform tooling system, it's not that easy to get started. I have tried some times to use the Duell build tools (installing the dependencies and compiling that way) and got it working a couple of years ago, but no success today. (To many errors that I don't have time to sort out.) 
 As a result, the strategy here has been to strip away everything but the bare bones to get something running.
 
+## Original demos and test
+
+Please have a look at 
+- types tests: https://github.com/gameduell/types/tree/master/tests/Source
+- aggx examples: https://github.com/gameduell/aggx/tree/master/examples/source/tests
+
+
 ## Code changes and strategies
 
 The original aggx files are put into the **src** folder. Haven't touched them except for changing some UInts to Ints to get flash target to compile.
