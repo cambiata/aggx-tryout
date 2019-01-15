@@ -16,6 +16,8 @@ Please have a look at
 
 ## Code changes and strategies
 
+Instead of using separate src folders for target specific files, I use the currently undocumented method of naming files using the **Module.target.hx** pattern. For example, the **target.Data** class has **target.Data.js.hx** and **target.Data.flash.hx** files with specific implementations.
+
 The original aggx files are put into the **src** folder. Haven't touched them except for changing some UInts to Ints to get flash target to compile.
 
 The original aggx tests and demos rely heavily on Gameduell's multiplatform **types** library, including the Data class. The platform-common parts of the **types** lib have been moved into the **src** folder.
