@@ -2,7 +2,7 @@
 
 This is a testproject to get going with Gameduell's port (https://github.com/gameduell/aggx/) of the Antigrain Geometry Library (http://www.antigrain.com/)
 
-According to Gameduell, the Aggx library isn't maintained anymore (https://github. com/gameduell/vectorx/issues/25#issuecomment-439914005) and the code is almost untouched since 2016. However, since it's a great library with font rendering (including kerning etc), SVG rendering etc, I find it worth a try to get it going.
+According to Gameduell, the Aggx library isn't maintained anymore (https://github.com/gameduell/vectorx/issues/25#issuecomment-439914005) and the code is almost untouched since 2016. However, since it's a great library with font rendering (including kerning etc), SVG rendering etc, I find it worth a try to get it going.
 
 As originally a part of Gameduell's multiplatform tooling system, it's not that easy to get started. I have tried some times to use the Duell build tools (installing the dependencies and compiling that way) and got it working a couple of years ago, but no success today. (To many errors that I don't have time to sort out.) 
 As a result, the strategy here has been to strip away everything but the bare bones to get something running.
