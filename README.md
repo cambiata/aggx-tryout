@@ -16,7 +16,7 @@ Please have a look at
 
 ## Code changes and strategies
 
-Instead of using separate src folders for target specific files, I use the currently undocumented method of naming files using the **Module.target.hx** pattern. For example, the **target.Data** class has **target.Data.js.hx** and **target.Data.flash.hx** files with specific implementations.
+Instead of using separate src folders for target specific files, I use the currently undocumented method of naming files using the **Module.target.hx** pattern. For example, the **types.Data** class has **types.Data.js.hx** and **types.Data.flash.hx** files with specific implementations.
 
 The original aggx files are put into the **src** folder. Haven't touched them except for changing some UInts to Ints to get flash target to compile.
 
