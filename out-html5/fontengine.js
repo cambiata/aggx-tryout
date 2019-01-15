@@ -6673,9 +6673,9 @@ var aggx_typography_FontEngine = function(ttc,scanline,rasterizer) {
 	var _this1 = _this._curve3;
 	_this1._curveInc._scale = 4.0;
 	_this1._curveDiv._approximationScale = 4.0;
-	var _this11 = _this._curve4;
-	_this11._curveInc._scale = 4.0;
-	_this11._curveDiv._approximationScale = 4.0;
+	var _this2 = _this._curve4;
+	_this2._curveInc._scale = 4.0;
+	_this2._curveDiv._approximationScale = 4.0;
 	this._stroke = new aggx_vectorial_converters_ConvStroke(this._curve);
 };
 aggx_typography_FontEngine.__name__ = true;
@@ -10504,7 +10504,7 @@ types_DataStringTools.decodeArrayBuffer = function(buffer) {
 	var bytes = new Uint8Array(buffer);
 	var pos = 0;
 	var len = bytes.length;
-	console.log("src_js/types/DataStringTools.hx:55:",len);
+	console.log("src/types/DataStringTools.js.hx:55:",len);
 	var out = [];
 	while(pos < len) {
 		var byte1 = bytes[pos++];

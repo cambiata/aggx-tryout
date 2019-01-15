@@ -4,7 +4,7 @@
 -resource assets/fonts/Pacifico.ttf@Pacifico.ttf
 -main ExampleFontEngine
 
--js out-browser/fontengine.js
+-js out-html5/fontengine.js
 
 
 
