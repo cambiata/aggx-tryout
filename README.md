@@ -11,7 +11,7 @@ As a result, the strategy here has been to strip away everything but the bare bo
 
 The original aggx files are put into the **src** folder. Haven't touched them except for changing some UInts to Ints to get flash target to compile.
 
-The original aggx tests and demos rely heavily on Gameduell's multiplatform **types** library, including it's Data class. The platform-common parts of the **types** lib have been moved into the **src** folder.
+The original aggx tests and demos rely heavily on Gameduell's multiplatform **types** library, including the Data class. The platform-common parts of the **types** lib have been moved into the **src** folder.
 
 The original aggx demos use Gameduell's multiplatform **filesystem** library, wich is (and has to be) complicated. To avoid that, I'm just including the assets as haxe resources right now.
 
