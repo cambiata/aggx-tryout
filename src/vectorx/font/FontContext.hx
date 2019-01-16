@@ -25,34 +25,22 @@
  */
 package vectorx.font;
 
-import vectorx.font.TextLayout;
-import aggx.core.utils.Debug;
 import aggx.renderer.BlenderBase;
-import aggx.core.memory.Pointer;
 import aggx.core.memory.Byte;
-import types.DataType;
 import aggx.core.math.Calc;
 import types.RectI;
-import haxe.Utf8;
 import aggx.vectorial.converters.ConvStroke;
-import aggx.svg.SVGColors;
 import aggx.vectorial.PathFlags;
 import aggx.vectorial.VectorPath;
-import types.Range;
 import types.Vector2;
 import types.Color4F;
+import vectorx.font.TextLayout;
 import vectorx.font.StringAttributes;
 import aggx.core.memory.MemoryAccess;
-import aggx.rfpx.TrueTypeCollection;
-import aggx.color.RgbaColor;
 import aggx.typography.FontEngine;
 import aggx.renderer.SolidScanlineRenderer;
 import aggx.rasterizer.ScanlineRasterizer;
 import aggx.rasterizer.Scanline;
-import aggx.renderer.ClippingRenderer;
-import aggx.renderer.PixelFormatRenderer;
-import aggx.RenderingBuffer;
-import types.Data;
 import types.VerticalAlignment;
 import types.HorizontalAlignment;
 
