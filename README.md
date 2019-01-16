@@ -7,6 +7,11 @@ According to Gameduell, the Aggx library isn't maintained anymore (https://githu
 As originally a part of Gameduell's multiplatform tooling system, it's not that easy to get started. I have tried some times to use the Duell build tools (installing the dependencies and compiling that way) and got it working a couple of years ago, but no success today. (To many errors that I don't have time to sort out.) 
 As a result, the strategy here has been to strip away everything but the bare bones to get something running.
 
+## Changelog
+
+* 15 jan: Aggx FontEngine example - No graphic output!
+* 16 jan: Added Vectorx FontLayout example - No graphic output!
+
 ## Original demos and test
 
 Please have a look at 
@@ -24,8 +29,7 @@ The original aggx tests and demos rely heavily on Gameduell's multiplatform **ty
 
 The original aggx demos use Gameduell's multiplatform **filesystem** library, wich is (and has to be) complicated. To avoid that, I'm just including the assets as haxe resources right now.
 
-Gameduell also have the vectorx library (https://github.com/gameduell/vectorx) that builds on aggx.
-This migth be worth looking into for the future.
+Also includes the vectorx library (https://github.com/gameduell/vectorx) that builds on aggx.
 
 ## FontEngine example
 
