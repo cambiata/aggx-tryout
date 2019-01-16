@@ -10,6 +10,7 @@ As a result, the strategy here has been to strip away everything but the bare bo
 ## Changelog
 
 * 15 jan: Aggx FontEngine example - No graphic output!
+* 16 jan: Added tests from types, aggx and vectorx libraries
 * 16 jan: Added Vectorx FontLayout example - No graphic output!
 
 ## Original demos and test
@@ -17,6 +18,7 @@ As a result, the strategy here has been to strip away everything but the bare bo
 Please have a look at 
 - types tests: https://github.com/gameduell/types/tree/master/tests/Source
 - aggx examples: https://github.com/gameduell/aggx/tree/master/examples/source/tests
+- vectorx examples: https://github.com/gameduell/vectorx/tree/master/examples/source/tests/fontTest
 
 
 ## Code changes and strategies
