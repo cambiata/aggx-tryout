@@ -35,8 +35,33 @@ ExampleVectorx.main = function() {
 	var bytesData = haxe_Resource.getBytes("arial.ttf").b.bufferValue;
 	var ttfData = new types_Data(bytesData.byteLength);
 	ttfData.set_arrayBuffer(bytesData);
-	new vectorx_font_FontCache(ttfData);
+	var fontCache = new vectorx_font_FontCache(ttfData);
 	new vectorx_font_FontContext();
+	fontCache.createFontWithNameAndSize("Arial",35.0);
+};
+ExampleVectorx.renderAttachment = function() {
+	var colorStorage = new vectorx_ColorStorage(70,70);
+	aggx_core_memory_MemoryAccess.domainMemory = colorStorage.data;
+	var rbuf = new aggx_RenderingBuffer(colorStorage.width,colorStorage.height,4 * colorStorage.width);
+	var _g = 2;
+	while(_g < 63) {
+		var i = _g++;
+		var row = rbuf._start + i * rbuf._stride;
+		var _g1 = 2;
+		while(_g1 < 63) {
+			var j = _g1++;
+			var ptr = row + j * 4;
+			if((j + i) % 5 != 0) {
+				aggx_core_memory_MemoryAccess.domainMemory.set_offset(ptr);
+				aggx_core_memory_MemoryAccess.domainMemory.writeInt32(255 | 255 << 8 | 255 << 16 | 128 << 24);
+			} else {
+				aggx_core_memory_MemoryAccess.domainMemory.set_offset(ptr);
+				aggx_core_memory_MemoryAccess.domainMemory.writeInt32(255 | 0 << 8 | 0 << 16 | 255 << 24);
+			}
+		}
+	}
+	aggx_core_memory_MemoryAccess.domainMemory = null;
+	return colorStorage;
 };
 var HxOverrides = function() { };
 HxOverrides.__name__ = true;

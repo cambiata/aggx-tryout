@@ -1,0 +1,11 @@
+-cp src
+# -cp src_js
+-D analyzer-optimize
+# -lib hxnodejs
+-resource assets/fonts/arial.ttf@arial.ttf
+-main ExampleVectorx
+
+-js out-node/vectorx.js
+-cmd node out-node/vectorx.js
+
+
