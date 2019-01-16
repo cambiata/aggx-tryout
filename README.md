@@ -33,11 +33,15 @@ The original aggx demos use Gameduell's multiplatform **filesystem** library, wi
 
 Also includes the vectorx library (https://github.com/gameduell/vectorx) that builds on aggx.
 
-## FontEngine example
+### FontEngine example
 
-Just one working example this far. It kicks of the fontengine and uses a simple test renderer just to see the resulting data (typeface outline coordinates, I suppose). No graphical output!
+Kicks of the aggx fontengine and uses a simple test renderer just to see the resulting data (typeface outline coordinates, I suppose). No graphical output!
 
-## SVG rendering example
+### Vectorx font example
+
+The vectorx library seems to handle more elaborate layout stuff and metrics stuff. 
+
+### SVG rendering example
 
 Hope to find time to try this out soon.
 
